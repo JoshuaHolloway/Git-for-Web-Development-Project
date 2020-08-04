@@ -1,0 +1,40 @@
+ 
+body {
+    border: solid #00CED1 20px;
+    padding: 40px 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+ h1 { 
+    text-align: center;
+    color: #778899;
+}
+
+ #Section-1 {
+    background: #7FFFD4;
+    padding: 30px;
+    color: #2F4F4F;
+ }
+
+ #Section-2 {
+    background: #2F4F4F;
+    padding: 40px;
+    color: #00CED1;
+}
+
+#Section-3 {
+    color: #778899;
+}
+
+#Section-3 p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#Image-container {
+    display: flex;
+    justify-content: space-around;
+}
