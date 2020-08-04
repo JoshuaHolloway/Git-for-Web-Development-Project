@@ -5,7 +5,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
  
- h1 { 
+ h1 {
     text-align: center;
     color: #778899;
 }
@@ -15,11 +15,18 @@ body {
     padding: 30px;
     color: #2F4F4F;
  }
+ #Section-1:hover {
+     background: orange;
+ }
 
  #Section-2 {
     background: #2F4F4F;
     padding: 40px;
     color: #00CED1;
+}
+#Section-2:hover {
+    background: grey;
+    color: orange;
 }
 
 #Section-3 {
@@ -32,6 +39,9 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     letter-spacing: 2px;
+}
+#Section-3 div:hover {
+    color: orange;
 }
 
 #Image-container {

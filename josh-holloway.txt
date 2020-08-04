@@ -1,4 +1,4 @@
-* Codepen code: 
+* Codepen: 
     * https://codepen.io/JoshuaHolloway/pen/YzqzzLN?editors=1100
 
 * Corresponding code on local machine:
