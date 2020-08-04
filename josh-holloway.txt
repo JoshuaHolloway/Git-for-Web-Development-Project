@@ -4,6 +4,9 @@
 * Corresponding code on local machine:
     * /index.html (uses /styles.css, which is linked in head tag)
 
+* Pull request link:
+    * https://github.com/JoshuaHolloway/Git-for-Web-Development-Project/pull/1
+
 * Questions:
     * 1. What is Semantic HTML? 
         * 
