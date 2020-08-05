@@ -137,8 +137,15 @@
             * button
     * 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given 
     them?
-        * TODO: Coming soon...
-
+        * In my own words (practicing recall):
+            * The box model is used to describe how much space an html-element takes up on the webpage.
+            * In the box model each html-element is composed of four parts:
+                * 1. The html inner content
+                * 2. The padding around the html content
+                    * This is the amount of space between the inner content and the padding.
+                * 3. The border seperating the padding and the margin.
+                * 4. The margin which is space surrounding the html-element.
+                    * This can be used to put space between neighboring html elements.
 
 * Stretch Git Tasks
     * While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. 
