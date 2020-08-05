@@ -95,7 +95,7 @@
             ```git add .```
             ```git commit -m "comment here..."```
             ```git push -u origin josh-holloway```
-        * Step 6: 
+        * Step 6: Submit pull request
 
 * Stretch Questions:
     * 1. What is the difference between an inline element and a block element?
