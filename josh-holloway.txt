@@ -110,12 +110,17 @@
         * [my own words from my own memory utilizing the technique of 'recall']: 
             * Its coordinate system is in reference to the whole page instead of the parent element.
                 * After reading MDN I realize my answer is not exactly correct. 
+                * If I am interpreting their definition correctly, then I think what they are saying is that position: absolute sets the coordinate system of this element in reference to the elements parent element - i.e., the origin (x=0,y=0)-position, is the uppper left corner of the parent element instead of the viewport.
         * [from MDN]: 
             * An element that is set to ``position: absolute`` is removed from the nromal document flow and now space is created for the element in the page layout.
             * This element is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block.
             * Its final position is deteremined by the values of the top, right, left, and bottom properties.
     * 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
-        * TODO: Coming soon...
+        * My initial guess from memory:
+            * width: auto;
+        * w3schools definition of width: auto;
+            * The width property has the possible property value of auto which is described as having the browser calculate the width.
+
     * 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
         * TODO: Coming soon...
     * 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given 
