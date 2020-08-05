@@ -87,23 +87,33 @@
         * git push
     * 37. Walk me through Lambda's git flow. 
         * Step 1: Fork a copy to my GitHub account.
-        * Step 2: Add TL as contributor.
+        * Step 2: Add PM as collaborator.
         * Step 3: Clone to local machine.
         * Step 4: Create a branch via command:
             ```git checkout -b josh-holloway```
-        * Step 5: Add, Commit, and Push to branch via command:
+        * Step 5: Add, Commit, and Push (to origin) branch via command:
             ```git add .```
             ```git commit -m "comment here..."```
             ```git push -u origin josh-holloway```
         * Step 6: Submit pull request
+            * Use your fork as a base-fork (compare across forks)
+            * Add your PM as a collaborator to the pull-request
+        * Step 7: The PM should then accept the merge request after conducting the code review.
+        
 
 * Stretch Questions:
     * 1. What is the difference between an inline element and a block element?
-        * Block takes up a whole lines
-        * TODO: Check this answer
+        * Block takes up a whole lines.
+            * More specifically, block elements cause a line break to occur therefore making the following element go to the next line.
+        * Inline elements do not force a new line to begin in the document flow [from MDN].
     * 2. What happens when an element is positioned absolutely?
-        * Its corrdinate system is in reference with the whole page instead of the parent element.
-        * TODO: Check this answer
+        * [my own words from my own memory utilizing the technique of 'recall']: 
+            * Its coordinate system is in reference to the whole page instead of the parent element.
+                * After reading MDN I realize my answer is not exactly correct. 
+        * [from MDN]: 
+            * An element that is set to ``position: absolute`` is removed from the nromal document flow and now space is created for the element in the page layout.
+            * This element is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block.
+            * Its final position is deteremined by the values of the top, right, left, and bottom properties.
     * 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
         * TODO: Coming soon...
     * 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
@@ -111,3 +121,15 @@
     * 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given 
     them?
         * TODO: Coming soon...
+
+
+* Stretch Git Tasks
+    * While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. 
+    * Independently research the following topics to learn more about Git.
+        * Research and understand what a merge conflict is and how to resolve it.
+        * Research the Git commands pull, rebase, merge. 
+            * These commands will allow you to bring in changes that other developers push to the main branch.
+        * Research the Git commands reset, revert, clean. 
+        * These commands will allow you to go back and amends previous commits you have made.
+        * Research and set up a Graphical User Interface (GUI) Git console.
+        * Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
