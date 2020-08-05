@@ -8,9 +8,11 @@ body {
 h1 {
     text-align: center;
     color: #778899;
+    transition: color 0.3s ease-in;
 }
 h1:hover {
     color: orange;
+    transition: color 0.3s ease-in;
 }
 
  #Section-1 {
@@ -47,6 +49,7 @@ h1:hover {
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
+
 #Section-3 div:hover {
     color: orange;
 }
