@@ -36,28 +36,28 @@
     * 12. How many times can I use the same class on a page? 
         * As many times as you want.
     * 13. How do I get my link to open in a new tab?
-        * target="_blank"
+        * ```target="_blank"```
     * 14. What is the alt attribute in the image tag used for? 
         * It is used for accessibility for things like screen readers as well as SEO.
     * 15. How do I reference an id?
-        * #ID-NAME { /* styles here... */ }
+        * ```#ID-NAME { /* styles here... */ }```
     * 16. What is the difference between a section and a div
         * A section is used to group together content that is considered to be in one 'section' of a web-page.  A div is just a block-level container.
     * 17. What is CSS used for? 
         * Styling.
     * 18. How to we select an element? Example - every h2 on the page
-        * h2 { /* styles here... */ }
+        * ```h2 { /* styles here... */ }```
     * 19. What is the difference between a class and an id? - Give me an example of when I might use each one
         * Classes are used for targeting sets of elements. ID's are used for targeting a specific element. An ID would be used for something like a specific image we want a specific style on whereas a class would be used on a set of images that we want to style all the same.
     * 20. How do we select classes in CSS?
         * .class-name { /* styles here... */ }
     * 21. How do we select a p element with a single class of “human”?
-        * p.human { ... }
+        * ```p.human { ... }```
     * 22. What is a parent child selector? When would this be useful? 
-        * parent-name > child-name { ... }
+        * ```parent-name > child-name { ... }```
         * This would be useful when targeting a specific child (or set of children) in reference to their parent element.
     * 23. How do you select all links within a div with the class of sidebar?
-        * div a.sidebar { ... }
+        * ```div a.sidebar { ... }```
     * 24. What is a pseudo selector?
         * A psuedo selector is used to target elements upon some event like hovering on the element.
     * 25. What do we use the change the spacing between lines?
@@ -75,17 +75,16 @@
     * 31. How do I find out what file I am in, when I am using the command line? 
         * pwd
     * 32. Using the command line - how do I see a list of files/folders in my current folder?
-        * ls
-        * ls -l  # (my prefered way to see more info and to print vertically)
-
+        * ```ls```
+        * ```ls -l  # (my prefered way to see more info and to print vertically)```
     * 33. How do I remove a file via the command line? Why do I have to be careful with this? 
-        * rm file-name
-        * rm -r folder-name   # to remove a folder (and its sub-folders/sub-files [recursively])
-        * You must be careful with 
+        * ```rm file-name```
+        * ```rm -r folder-name   # to remove a folder (and its sub-folders/sub-files [recursively])```
+        * You must be careful with these commands as they do not ask if you meant to perform a deletion and there is no way to retrieve the contents once these commands have been applied!!!
     * 34. Why should I use version control? 
-        * To help us work on codebases across teams and to organize and record the evolution of a codebase, as well as helping us safely make changes because we can always go back to a point in the codebases history before a bug was introduced.
+        * To help us work on codebases across teams and to organize and record the evolution of a codebase, as well as helping us safely make changes because we can always go back to a point in the codebases history before a bug was introduced (it is like a time machine!).
     * 35. How often should I commit to github?
-        * Every time we add a feature or make a (somewhat) substantial change.
+        * Every time we add a feature or make a (somewhat) substantial change (that works - don't commit code that you have broken!).
     * 36. What is the command we would use to push our repo up to github? 
         * git push
     * 37. Walk me through Lambda's git flow. 
@@ -94,10 +93,11 @@
         * Step 3: Clone to local machine.
         * Step 4: Create a branch via command:
             ```git checkout -b josh-holloway```
+            ```git branch # (just to check to make sure we are on the right branch - this will list all branches for my fork of the repo and have a asterisk next to the branch that is checked out)```
         * Step 5: Add, Commit, and Push (to origin) branch via command:
             ```git add .```
             ```git commit -m "comment here..."```
-            ```git push -u origin josh-holloway```
+            ```git push -u origin josh-holloway # (git push after initial push upstream to new branch)```
         * Step 6: Submit pull request
             * Use your fork as a base-fork (compare across forks)
             * Add your PM as a collaborator to the pull-request
