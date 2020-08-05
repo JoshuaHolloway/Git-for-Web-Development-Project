@@ -9,7 +9,10 @@
 
 * Questions:
     * 1. What is Semantic HTML? 
-        * 
+        * [adapted from wikipedia]: 
+            * Sementic HTML is when HTML is used to reinforce the meaning of web-page information as opposed to only defining the appearnce of the web-page.
+        * [adapted from w3schools]:
+            * An HTML element is used semantically when it is used such that its usage clearly describes its meaning to both the browser and the developer.
     * 2. What is HTML used for? 
         * Defining the structure of the webpage.
     * 3. What is an attribute and where do we put it? 
