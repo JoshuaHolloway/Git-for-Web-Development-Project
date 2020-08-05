@@ -125,7 +125,16 @@
             * The width property has the possible property value of auto which is described as having the browser calculate the width.
 
     * 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-        * TODO: Coming soon...
+        * display: block (by default):
+            * div
+            * p
+            * 
+        * display: inline (by default):
+            * span
+            * 
+        * display: inline-block (by default):
+            * img
+            * button
     * 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given 
     them?
         * TODO: Coming soon...
@@ -141,3 +150,8 @@
         * These commands will allow you to go back and amends previous commits you have made.
         * Research and set up a Graphical User Interface (GUI) Git console.
         * Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
+    * Personal note on these Git-Tasks:
+        * I am in the process of research all of these concepts by taking an online course on git.
+        * I won't be able to have all of these completely researched and able to use (practically) by the time I submit this project.
+        * I want to learn git at a deep level.
+            * Therefore, I will continue researching these daily as I use git and will report back when I have all of them figured out and I can explain them in my own words via Barbara Oakley's recall method.
