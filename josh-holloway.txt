@@ -128,10 +128,17 @@
         * display: block (by default):
             * div
             * p
-            * 
+            * article
+            * blockquote
+            * h1, h2, ..., h6
+            * hr
+            * li, ol, and ul
+            * header, nav, main, footer
+            * section
         * display: inline (by default):
+            * a (link)
             * span
-            * 
+            * b (bold), u (underline), q (quotation)
         * display: inline-block (by default):
             * img
             * button
