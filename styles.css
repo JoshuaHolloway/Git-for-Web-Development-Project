@@ -56,6 +56,12 @@ h1:hover {
     justify-content: space-around;
 }
 
+img {
+    border: red dotted 0px;
+    transition-property: border;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
 img:hover {
-    border: dotted 10px red;
+    border: red dotted 15px;  
 }
