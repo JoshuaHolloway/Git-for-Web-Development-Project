@@ -1,0 +1,82 @@
+ 
+body {
+    border: solid #00CED1 20px;
+    padding: 40px 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+h1 {
+    text-align: center;
+    color: #778899;
+    transition: color 0.3s ease-in;
+}
+h1:hover {
+    color: orange;
+    transition: color 0.3s ease-in;
+}
+
+ #Section-1 {
+    background: #7FFFD4;
+    padding: 30px;
+    color: #2F4F4F;
+
+    transition: background-color 0.2s ease-out;
+ }
+ #Section-1:hover {
+     background: orange;
+     transition: background-color 0.2s ease-in;
+ }
+
+ #Section-2 {
+    background: #2F4F4F;
+    padding: 40px;
+    color: #00CED1;
+
+    transition: all 0.2s ease-in;
+}
+#Section-2:hover {
+    background: grey;
+    color: orange;
+    transition: all 0.2s ease-in;
+}
+
+#Section-3 {
+    color: #778899;
+}
+
+#Section-3__Heading {
+    font-size: 25px;
+}
+
+#Section-3 p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#Section-3 div {
+    color: inherit;
+    transition: color 0.2s ease;
+}
+
+#Section-3 div:hover {
+    color: orange;
+    transition: color 0.2s ease;
+}
+
+#Image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    border: red dotted 0px;
+    transition-property: border;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+img:hover {
+    border: red dotted 15px;  
+}
